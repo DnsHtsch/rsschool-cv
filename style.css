@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(197, 214, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Heebo', sans-serif;
+
+
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  text-align: right; 
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: white;
+  
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 20px;
+  color: #133365;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.profile_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile_text .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_text .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile_text h1 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profile_text h1 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contact_info {
+  padding-top: 40px;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contact_info ul {
+position: relative;
+}
+
+.contact_info ul li {
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+
+.contact_info ul li .icon {
+display: inline-block;
+text-align: center;
+width: 30px;
+font-size: 18px;
+color: #03a9f4;
+}
+
+.contact_info ul li span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact_info.education li {
+margin-bottom: 15px;
+}
+
+.contact_info.education h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+
+.contact_info.education h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contact_info.lang .level{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+} 
+
+.contact_info.lang .level div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.progress_en {
+  width: 30%;
+}
+
+.progress_rus {
+  width: 90%;
+}
+
+.container .right_side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.about {
+margin-bottom: 50px;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.title_summary{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.p_summary {
+  font-size: large;
+  color: #003147;
+}
+
+.title_skills {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about li {
+  font-size: large;
+  color: #003147;
+}
+
+.example_code{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.title_expereance{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.box {
+  font-size: large;
+  color: #003147;
+}
+
+.footer {
+  text-align: center;
+}
+
+.rslogo {
+  width: 90px;
+  
+}
+
+.footerpar {
+  color: #003147;
+}
+
+.gitlink {
+  color: #003147;
+  text-decoration: none;
+}
+
+.gitlink:hover {
+  color:#fff;}
