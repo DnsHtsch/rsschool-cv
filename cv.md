@@ -13,29 +13,17 @@
 --- 
 
 ### _Skills_
-* HTML & CSS
-* Java Script
+* Web-development:HTML5, CSS3, JavaScript
+* Version control:GIT, Github
+* Graphics:Figma
 
 ### _Code Example_
 
-```const quickSort = arr => {
-  const a = [...arr];
-  if (a.length < 2) return a;
-  const pivotIndex = Math.floor(arr.length / 2);
-  const pivot = a[pivotIndex];
-  const [lo, hi] = a.reduce(
-    (acc, val, i) => {
-      if (val < pivot || (val === pivot && i != pivotIndex)) {
-        acc[0].push(val);
-      } else if (val > pivot) {
-        acc[1].push(val);
-      }
-      return acc;
-    },
-    [[], []]
-  );
-  return [...quickSort(lo), pivot, ...quickSort(hi)];
-};
+```( * = =* (start, end, step = 1) {
+    let d = start;
+      while (d < end) {
+    yield new Date(d);
+  d.setDate(d.getDate() + step); } };
 ```
 
 ---
